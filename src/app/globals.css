@@ -1,5 +1,4 @@
-/* src/app/global.css */
-
+@import 'bootstrap/dist/css/bootstrap.min.css';
 /* Color Variables */
 :root {
   --primary-color: #4a90e2;      /* Primary blue */
@@ -30,10 +29,15 @@
 body {
   font-family: 'CustomFont', sans-serif;
   background-color: var(--background-color);
-  color: var(--text-color);
   line-height: 1.6;
 }
 
 ::selection {
   background-color: var(--selection-color); 
 }
+
+
+
+
+
+
